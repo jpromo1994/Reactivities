@@ -1,4 +1,5 @@
 using System;
+using Microsoft.EntityFrameworkCore;
 
 namespace Domain;
 
@@ -17,5 +18,4 @@ public class Activity
     public double Latitude { get; set; }
     public double Longitude { get; set; }
 
-    // navigation properties
 }
